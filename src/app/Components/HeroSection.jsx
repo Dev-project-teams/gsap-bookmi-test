@@ -149,6 +149,7 @@ export default function HeroSection() {
                 );
         });
 
+        
         // 🔠 Letter-by-letter heading animation
         function animateText(element) {
             const text = element.textContent;
