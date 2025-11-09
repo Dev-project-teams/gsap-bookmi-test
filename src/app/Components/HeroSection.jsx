@@ -149,7 +149,7 @@ export default function HeroSection() {
                 );
         });
 
-        
+
         // 🔠 Letter-by-letter heading animation
         function animateText(element) {
             const text = element.textContent;
@@ -187,7 +187,7 @@ export default function HeroSection() {
                         Bookmi
                     </div>
 
-                    {/* Center Links
+                    {/* Center Links */}
                     <nav className="hidden md:flex gap-8 font-medium text-lg relative">
                         {["Hair", "Spa", "Makeup", "Nails", "Massage"].map((item, i) => (
                             <span
@@ -199,7 +199,7 @@ export default function HeroSection() {
                                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-current group-hover:w-full transition-all duration-300"></span>
                             </span>
                         ))}
-                    </nav> */}
+                    </nav>
 
                     {/* Buttons */}
                     <div className="flex items-center gap-4">
